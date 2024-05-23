@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 const Men = () => {
     const [menProducts, setMenProducts] = useState([]);
-    const [sortOption, setSortOption] = useState('');
+    const [sortOption, setSortOption] = useState();
     console.log(sortOption);
 
     console.log(menProducts);
@@ -15,7 +15,7 @@ const Men = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const productsData = await getAllProducts(); // Fetch data from the API
+                const productsData = await getAllProducts(sortOption); // Fetch data from the API
                 // Filter products for men category
                 const menProductsData = productsData.filter(product => product.category === 'men');
                 setMenProducts(menProductsData);
@@ -25,7 +25,7 @@ const Men = () => {
         };
 
         fetchData();
-    }, []);
+    }, [sortOption]);
     const handleSortChange = async (event) => {
         const selectedOption = event.target.value; // Update sort option when changed
         setSortOption(selectedOption)
@@ -36,7 +36,7 @@ const Men = () => {
             <div className='flex justify-between'>
                 <p>{menProducts.length} items found of <span className='text-[#58B19F] font-bold'>"{menProducts[0]?.category}"</span></p>
                 <div>
-                    sort by :
+                    Sort by :
                     <select onChange={handleSortChange} className='border py-2 px-3 rounded-full'>
                         <option value="">Select</option>
                         <option value="priceHighToLow">Price High to Low</option>
