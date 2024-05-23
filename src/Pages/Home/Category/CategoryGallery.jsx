@@ -20,7 +20,7 @@ const CategoryGallery = () => {
             id: 1,
             name: "Men",
             image: men,
-            link: '/Men',
+            link: '/men',
         },
         {
             id: 2,
