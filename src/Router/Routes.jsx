@@ -5,6 +5,12 @@ import Home from "../Pages/Home/Home";
 import Signin from "../Pages/Signin";
 import SignUp from "../Pages/SignUp";
 import Men from "../Pages/Men";
+import Electnonics from "../Pages/Electnonics";
+import Women from "../Pages/Women";
+import MenDetails from "../Pages/MenDetails";
+import ElectronicsDetails from "../Pages/ElectronicsDetails";
+import WomenDetails from "../Pages/WomenDetails";
+import Privetroute from "./Privetroute";
 
 const router = createBrowserRouter([
     {
@@ -18,7 +24,30 @@ const router = createBrowserRouter([
             },
             {
                 path: "/men",
-                element:<Men></Men>,
+                element: <Men></Men>,
+            },
+            {
+                path: '/men_details/:id',
+                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.id}`),
+                element: <Privetroute><MenDetails></MenDetails></Privetroute>
+            },
+            {
+                path: "/electronics",
+                element: <Electnonics></Electnonics>,
+            },
+            {
+                path: '/electronics_details/:id',
+                loader: ({ params }) => fetch(`http://localhost:5000/allproducts/${params.id}`),
+                element: <Privetroute><ElectronicsDetails></ElectronicsDetails></Privetroute> ,
+            },
+            {
+                path: "/women",
+                element: <Women></Women>,
+            },
+            {
+                path: '/women_details/:id',
+                loader: ({ params }) => fetch(`http://localhost:5000/allproducts/${params.id}`),
+                element: <Privetroute><WomenDetails></WomenDetails></Privetroute>,
             },
             {
                 path: "/signin",
