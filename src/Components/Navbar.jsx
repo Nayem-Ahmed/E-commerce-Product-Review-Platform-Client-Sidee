@@ -18,7 +18,7 @@ const Navbar = () => {
         <NavLink className='nav' to='/contact'>Contact us</NavLink>
     </>
     return (
-        <div className='px-5'>
+        <div className='px-2'>
         <div className="navbar relative z-50 bg-base-100  mb-0 pb-0">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -29,7 +29,7 @@ const Navbar = () => {
                         {link}
                     </ul>
                 </div>
-                <a href='/' className="text-xl"><img className='w-24' src={logoo} alt="" /></a>
+                <a href='/' className="text-xl hidden md:block lg:block"><img className='w-24' src={logoo} alt="" /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
