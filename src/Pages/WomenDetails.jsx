@@ -89,7 +89,7 @@ const WomenDetails = () => {
             {/* User Reviews */}
             <div className="mt-8">
                 <h2 className="text-2xl font-bold mb-4">User Reviews</h2>
-                {review?.map((revieww, index) => (
+                {userReviews?.map((revieww, index) => (
                     <div key={index} className="bg-gray-100 p-4 rounded-lg mb-4">
                         <p><strong>{revieww.username}</strong> <span className="text-gray-600">- {new Date(revieww.date).toLocaleDateString()}</span></p>
                         <Rating style={{ maxWidth: 100 }} value={revieww.rating} readOnly />

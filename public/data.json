@@ -1,0 +1,217 @@
+[
+    {
+      "images": "https://i.ibb.co/HG24h6r/t-shart.webp",
+      "category": "men",
+      "name": "Men's T-Shirt",
+      "price": 19.99,
+      "description": "A comfortable and stylish men's t-shirt.",
+      "rating":4.5,
+       "specifications": ["100% Cotton", "Machine washable", "Imported"],
+       "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/3scbrYw/jeans.webp",
+      "category": "men",
+      "name": "Men's Jeans",
+      "price": 49.99,
+      "description": "Durable and trendy men's jeans.",
+      "rating":5,
+      "specifications": ["Denim", "Machine washable", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/Lzrk3FC/jeacket.webp",
+      "category": "men",
+      "name": "Men's Jacket",
+      "price": 89.99,
+      "description": "Warm and stylish men's jacket.",
+      "rating":4.5,
+      "specifications": ["100% Polyester", "Dry clean only", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/4pCbZsN/shoe.webp",
+      "category": "men",
+      "name": "Men's Shoes",
+      "price": 69.99,
+      "description": "Comfortable and fashionable men's shoes.",
+      "rating":4,
+      "specifications": ["Leather", "Rubber sole", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/j5Ptsfb/hat.jpg",
+      "category": "men",
+      "name": "Men's Hat",
+      "price": 15.99,
+      "description": "Stylish and protective men's hat.",
+      "rating":3,
+      "specifications": ["100% Cotton", "Hand wash only", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/j5Ptsfb/hat.jpg",
+      "category": "men",
+      "name": "Men's Watch",
+      "price": 120.00,
+      "description": "Elegant and functional men's watch.",
+      "rating":4.5,
+      "specifications": ["Stainless steel", "Water-resistant up to 50 meters", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/Z2ysVF2/shampo.webp",
+      "category": "men",
+      "name": "Shampoo",
+      "price": 120.00,
+      "description": "To maintain hair and scalp health, regular usage of shampoo is a mandate.",
+      "rating":4.5,
+      "specifications": ["good shampoo", "Water-resistant up to 50 meters", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/zX1m0WB/product-4.png",
+      "category": "women",
+      "name": "Women's Dress",
+      "price": 39.99,
+      "description": "Elegant and fashionable women's dress.",
+      "rating":3,
+      "specifications": ["100% Polyester", "Machine washable", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/f9sbPXD/product-8.png",
+      "category": "women",
+      "name": "Women's Handbag",
+      "price": 79.99,
+      "description": "Stylish and spacious women's handbag.",
+      "rating":4,
+      "specifications": ["Leather", "Zip closure", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/F6D0bq1/product-12.png",
+      "category": "women",
+      "name": "Women's Shoes",
+      "price": 59.99,
+      "description": "Comfortable and chic women's shoes.",
+      "rating":4.5,
+      "specifications": ["Leather", "Rubber sole", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/JsTx4wQ/wo.webp",
+      "category": "women",
+      "name": "Women's Scarf",
+      "price": 24.99,
+      "description": "Soft and warm women's scarf.",
+      "rating":4
+    },
+    {
+      "images": "https://i.ibb.co/9sVTHRR/w.webp",
+      "category": "women",
+      "name": "Women's Sunglasses",
+      "price": 29.99,
+      "description": "Trendy and protective women's sunglasses.",
+      "rating":3,
+      "specifications": ["100% Wool", "Hand wash only", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/1JmnVB7/ww.webp",
+      "category": "women",
+      "name": "Women's Necklace",
+      "price": 45.99,
+      "description": "Elegant and stylish women's necklace.",
+      "rating":3,
+      "specifications": ["Gold plated", "Lobster clasp", "Imported"],
+      "availability": "In Stock"
+      
+    },
+    {
+      "images": "https://i.ibb.co/Nj6q3fy/lip.webp",
+      "category": "women",
+      "name": "Lip care",
+      "price": 45.99,
+      "description": "A lipstick or lip gloss completes your look, makes you feel confident and sorted.",
+      "rating":3,
+      "specifications": ["Good product", "Lobster clasp", "Imported"],
+      "availability": "In Stock"
+      
+    },
+    {
+      "images": "https://i.ibb.co/7G9TR1v/phn.webp",
+      "category": "electronics",
+      "name": "Smartphone",
+      "price": 299.99,
+      "description": "Latest model smartphone with advanced features.",
+     "rating":5,
+      "specifications": ["UV protection", "Polycarbonate lenses", "Imported"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/jkQHR7y/leptop.webp",
+      "category": "electronics",
+      "name": "Laptop",
+      "price": 999.99,
+      "description": "High-performance laptop for all your needs.",
+      "rating":4.5,
+      "specifications": ["16GB RAM", "512GB SSD", "Intel i7 processor"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/Chs3NhC/tap.jpg",
+      "category": "electronics",
+      "name": "Tablet",
+      "price": 199.99,
+      "description": "Portable and powerful tablet.",
+       "rating":5,
+       "specifications": ["6.5-inch display", "128GB storage", "12MP camera"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/M61gxy3/w1.png",
+      "category": "electronics",
+      "name": "Smartwatch",
+      "price": 149.99,
+      "description": "Stylish and functional smartwatch.",
+      "rating":4,
+     "specifications": ["16GB RAM", "512GB SSD", "Intel i7 processor"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/ZmhRFhg/earbud.webp",
+      "category": "electronics",
+      "name": "Wireless Earbuds",
+      "price": 89.99,
+      "description": "High-quality wireless earbuds with excellent sound.",
+      "rating":2,
+       "specifications": ["10-inch display", "64GB storage", "8MP camera"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/4pBcgrc/p1.webp",
+      "category": "electronics",
+      "name": "Bluetooth Speaker",
+      "price": 59.99,
+      "description": "Portable and powerful Bluetooth speaker.",
+      "rating":3,
+      "specifications": ["10W output", "Bluetooth 5.0", "8-hour battery life"],
+      "availability": "In Stock"
+    },
+    {
+      "images": "https://i.ibb.co/vDR5V75/tv.webp",
+      "category": "electronics",
+      "name": "Television",
+      "price": 59.99,
+      "description": "Portable and powerful Bluetooth speaker.",
+      "rating":3,
+      "specifications": ["10W output", "Bluetooth 5.0", "8-hour battery life"],
+      "availability": "In Stock"
+    }
+  ]
+  
+  
+  
+  
+  
